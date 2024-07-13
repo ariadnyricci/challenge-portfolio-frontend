@@ -1,0 +1,36 @@
+header {
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: none;
+}
+
+
+
+@media(min-width:1024px) {
+    header {
+        padding: 10px 100px;
+    }
+
+    .menu__list {
+        display: flex;
+        font-size: 16px;
+        gap: 32px;
+    }
+
+    .menu__list__item__contato {
+        display: none;
+    }
+}
